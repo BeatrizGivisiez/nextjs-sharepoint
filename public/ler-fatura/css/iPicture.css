@@ -1,0 +1,110 @@
+#iPicture {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, san-serif;
+	font-size: 62.5%;
+	color: #ffffff;
+}
+.ip_slide {
+	position: relative;
+}
+.ip_tooltip {
+	padding: 0;
+	position: absolute;
+	text-align: left;
+}
+.ip_img32 {
+	cursor: pointer;
+}
+.ip_tooltip .ip_descr {
+	font:
+		bold 13px Lucida Grande,
+		Arial,
+		sans-serif;
+	opacity: 0;
+	position: absolute;
+	text-align: left;
+	transition:
+		left 0.25s ease-out,
+		opacity 0.25s ease-out,
+		right 0.25s ease-out,
+		bottom 0.25s ease-out,
+		top 0.25s ease-out;
+	-moz-transition:
+		left 0.25s ease-out,
+		opacity 0.25s ease-out,
+		right 0.25s ease-out,
+		bottom 0.25s ease-out,
+		top 0.25s ease-out;
+	-webkit-transition:
+		left 0.25s ease-out,
+		opacity 0.25s ease-out,
+		right 0.25s ease-out,
+		bottom 0.25s ease-out,
+		top 0.25s ease-out;
+	z-index: -10;
+	display: block;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	min-height: 15px;
+}
+.ip_descr p {
+	min-width: 320px;
+}
+.ip_tooltip .ltr-before {
+	left: -3px;
+}
+.ip_tooltip .rtl-before {
+	right: -60px;
+}
+.ip_tooltip .ttb-before {
+	top: -3px;
+}
+.ip_tooltip .btt-before {
+	bottom: -60px;
+}
+.ltr-slide {
+	opacity: 1 !important;
+	left: 35px !important;
+	padding: 0;
+}
+.rtl-slide {
+	opacity: 1 !important;
+	right: 13px !important;
+	padding: 0;
+}
+.descrContainer {
+	width: 0;
+	height: 0;
+	display: block;
+	visibility: hidden;
+}
+.show .descrContainer {
+	width: 100%;
+	height: 100%;
+	visibility: visible;
+}
+.ip_img32 .button {
+	width: 20px;
+	height: 20px;
+	float: left !important;
+	position: absolute;
+}
+.bg32 .button {
+	width: 20px;
+	height: 20px;
+	float: left !important;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+}
+.bgcolor {
+	background: rgb(255, 216, 0);
+	opacity: 1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #000000;
+}
+.button {
+	background: url("../images/btn_orange.png") no-repeat scroll left center transparent;
+}
