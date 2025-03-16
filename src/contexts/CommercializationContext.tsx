@@ -7,10 +7,7 @@ import React, {
   useEffect,
 } from "react";
 import getCommercialization from "@/modules/lojas-e-agentes/services/getCommercialization";
-import {
-  CommercializationListProps,
-  CoordinateMapsProps,
-} from "../components/Maps/types";
+import { CommercializationListProps } from "../components/Maps/types";
 import { listIslands } from "@/util/listIslands";
 
 interface CommercializationContextProps {
